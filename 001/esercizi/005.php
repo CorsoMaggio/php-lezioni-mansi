@@ -41,6 +41,8 @@ $words1 = [
     'diritta'
 ];
 
+
+
 $words2 = [
     'elemento1' => 25.89,
     'elemento2' => 'nostra',
@@ -50,6 +52,7 @@ $words2 = [
         'ché'
     ]
 ];
-
-$results =  ""; //<--- Tutto in questa variabile
-echo $result;
+var_dump($words2['elemento3'][1]);
+die();
+// $results =  ""; //<--- Tutto in questa variabile
+// echo $result;
